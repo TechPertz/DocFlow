@@ -1,0 +1,27 @@
+# Core dependencies
+numpy
+faiss-cpu  # Use faiss-gpu if you have GPU support
+spacy
+nltk
+transformers
+sentence-transformers
+neo4j
+
+# Additional dependencies
+semantic-router  # For HuggingFaceEncoder
+semantic-chunkers  # For StatisticalChunker
+docx2txt  # For DOCX file processing
+
+# Download spaCy model
+# After installing requirements, run: python -m spacy download en_core_web_lg
+
+fastapi
+uvicorn
+pydantic
+python-multipart
+python-jose
+passlib
+bcrypt
+python-dotenv
+PyMuPDF
+anthropic  # For Claude API

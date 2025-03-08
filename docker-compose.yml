@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:latest
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    environment:
+      - NEO4J_AUTH=neo4j/mypassword123
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    restart: unless-stopped
+
+  # api:
+  #   build: 
+  #     context: ./Backend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "8000:8000"
+  #   volumes:
+  #     - ./Backend/app:/app/app
+  #     - ./Backend/.env:/app/.env
+  #   environment:
+  #     - ENVIRONMENT=development
+  #     - NEO4J_URI=bolt://neo4j:7687
+  #     - NEO4J_USER=neo4j
+  #     - NEO4J_PASSWORD=mypassword123
+  #   env_file:
+  #     - ./Backend/.env
+  #   depends_on:
+  #     - neo4j
+  #   restart: unless-stopped
+
+  # frontend:
+  #   build:
+  #     context: ./Frontend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "3000:3000"
+  #   volumes:
+  #     - ./Frontend:/app
+  #     - /app/node_modules
+  #     - /app/.next
+  #   environment:
+  #     - NODE_ENV=development
+  #   depends_on:
+  #     - api
+  #   restart: unless-stopped
+
+volumes:
+  neo4j_data:
+  neo4j_logs: 
