@@ -1,15 +1,21 @@
-# GraphRAG: Document Compliance with Knowledge Graphs and Vector Embeddings
+# GraphRAG based LLM Document Compliance with Knowledge Graphs and Vector Embeddings
 
 DocFlow addresses the challenge of auditing thousands of pages of regulatory documents. It leverages GraphRAG and OpenAI for hybrid context retrieval using Knowledge Graphs (Neo4J), Vector Embeddings, and SQL databases.
 
 The frontend serves as a SaaS platform for organizations to edit numerous documents and manage multiple levels of approvals within and across cross-functional teams, automated via custom workflows.
 
-GraphRAG-only Kaggle Script: 
+GraphRAG-only Kaggle Script: [https://www.kaggle.com/code/techpertz/docflow](https://www.kaggle.com/code/techpertz/docflow)
 
 ## Screenshots
 - Screenshot 1: Dashboard Overview
-- Screenshot 2: Compliance Report Example
+![Screenshot 2025-03-08 at 5 19 08 AM](https://github.com/user-attachments/assets/2809487c-d9ae-46c5-9b1d-bf0c17972755)
+
+- Screenshot 2: Compliance Report with Citations
+![Screenshot 2025-03-08 at 5 12 21 AM](https://github.com/user-attachments/assets/dfb18673-dd0a-4a5d-bdb3-7db9a86ab8a9)
+
 - Screenshot 3: Knowledge Graph
+![Screenshot 2025-03-08 at 5 13 10 AM](https://github.com/user-attachments/assets/ad4bd55b-b883-40b8-b735-ac8d7d2419a1)
+
 
 ## 🏗️ Architecture
 
