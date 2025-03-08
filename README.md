@@ -25,6 +25,7 @@ GraphRAG-only Kaggle Script: [https://www.kaggle.com/code/techpertz/docflow](htt
 - **Backend**: FastAPI service with Python
 - **Database**: Neo4j graph database
 - **LLM**: OpenAI
+- **RAG** - Semantic Chunking + Similarity, BART Summarization
 
 ## 🚀 Running Instructions
 
