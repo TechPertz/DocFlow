@@ -1,10 +1,15 @@
-# GraphRAG (Knowledge Graph + Vector Embeddings) based Document Compliance with edit and approval via custom workflows.
+# GraphRAG: Document Compliance with Knowledge Graphs and Vector Embeddings
 
-DocFlow solves the problem of auditing documents across thousands of pages of Regulatory documents using GraphRAG+OpenAI via Hybrid Context retrieval from Knowledge Graphs (Neo4J) + Vector Embeddings + SQL DB.
+DocFlow addresses the challenge of auditing thousands of pages of regulatory documents. It leverages GraphRAG and OpenAI for hybrid context retrieval using Knowledge Graphs (Neo4J), Vector Embeddings, and SQL databases.
 
-The Frontend serves the purpose of a SAAS platform for organization editing numerous documents and undergoing multiple hierarchy of approvals within and across cross-functional teams, which can be automated via workflows.
+The frontend serves as a SaaS platform for organizations to edit numerous documents and manage multiple levels of approvals within and across cross-functional teams, automated via custom workflows.
 
+GraphRAG-only Kaggle Script: 
 
+## Screenshots
+- Screenshot 1: Dashboard Overview
+- Screenshot 2: Compliance Report Example
+- Screenshot 3: Knowledge Graph
 
 ## 🏗️ Architecture
 
