@@ -6,7 +6,7 @@ The frontend serves as a SaaS platform for organizations to edit numerous docume
 
 GraphRAG-only Kaggle Script: [https://www.kaggle.com/code/techpertz/docflow](https://www.kaggle.com/code/techpertz/docflow)
 
-NOTE: No Agentic or High-Level Framework like LangChain, LangGraph, etc has been used in this project for maximum learning purposes.
+**NOTE: No Agentic or High-Level Framework like LangChain, LangGraph, etc has been used in this project for maximum learning purposes.**
 
 ## Screenshots
 - Screenshot 1: Dashboard Overview
